@@ -1,0 +1,11 @@
+amarillito:
+<a href="https://www.flaticon.com/free-icons/encrypted-data" title="encrypted data icons">Encrypted data icons created by Enamo Studios - Flaticon</a> 
+
+verde: 
+<a href="https://www.flaticon.com/free-icons/encrypted" title="encrypted icons">Encrypted icons created by Freepik - Flaticon</a>
+
+gris:
+<a href="https://www.flaticon.com/free-icons/encrypt" title="encrypt icons">Encrypt icons created by turkkub - Flaticon</a>
+
+otro gris (data security)
+<a href="https://www.flaticon.com/free-icons/data-encryption" title="data encryption icons">Data encryption icons created by Cuputo - Flaticon</a>
