@@ -1,11 +1,11 @@
-
+/* 
 html{ 
     width: 100%;
     padding:0px;
     border:0px;
-    /* background: linear-gradient(#201311, blanchedalmond); */
+    /* background: linear-gradient(#201311, blanchedalmond);
     background: linear-gradient(black, lightgrey);
-    
+     */
 
 }
  body{
@@ -14,7 +14,7 @@ html{
 }
 
 header {
-    /* background-color: #201311; */
+    background-color: #201311;
     height: 140px;
 }
 
@@ -43,6 +43,7 @@ main {
     /* background: linear-gradient(#201311, #332421); */
     /* background: linear-gradient(#201311, #352725); */
    /* background: linear-gradient(#201311, blanchedalmond); */
+     background: linear-gradient(black, lightgrey);
     position: relative;
     margin: 0;
     border: 0;
