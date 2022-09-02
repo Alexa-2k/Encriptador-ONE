@@ -131,8 +131,8 @@ main {
 .footer {
     position: fixed; 
     bottom:0; 
-    width: 100%
-    background: linear-gradient(lightgray, white);
+    width: 100%;
+background: linear-gradient(lightgray, white);
 }
 
 
