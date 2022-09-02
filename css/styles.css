@@ -132,7 +132,6 @@ main {
     position: fixed; 
     bottom:0; 
     width: 100%;
-background: linear-gradient(lightgray, white);
 }
 
 
@@ -140,4 +139,5 @@ footer p {
     font-family: 'Quicksand', sans-serif;
     color: #2f4f4f;
     text-align: right;
+    background: linear-gradient(lightgray, white);
 }
