@@ -118,7 +118,7 @@ main {
     color: antiquewhite;
     font-size: 1.3em;
     width: 15%;
-    height: 2.5em;
+    height: 3em;
     margin-left: 6%;
 }
 
@@ -138,8 +138,8 @@ main {
     color: antiquewhite;
     font-size: 1.3em;
     width: 15%;
-    height: 2.5em;
-    margin-left: 36.5%;
+    height: 3em;
+    margin-left: 30%;
     }
 
 #copy_btn:active {   
