@@ -19,17 +19,13 @@ header {
 
 h1 {
     color :  #7FB77E;
-  
     font-family: 'Quicksand', sans-serif;
     font-weight: lighter;
     font-size: 2.5rem;
 }
 
 main {
-    /* background: linear-gradient(#201311, #332421); */
-    /* background: linear-gradient(#201311, #352725); */
-   /* background: linear-gradient(#201311, blanchedalmond); */
-     background: linear-gradient(black, lightgrey);
+    background: linear-gradient(black, lightgrey);
     position: relative;
     margin: 0;
     border: 0;
@@ -126,7 +122,7 @@ main {
     font-size: 1.3em;
     width: 15%;
     height: 3em;
-    margin-left: 30%;
+    margin-left: 36%;
     }
 
 #copy_btn:active {   
