@@ -131,10 +131,14 @@ main {
     position: fixed; 
     bottom:0; 
     width: 100%;
+    background: linear-gradient(lightgray, white);
 }
 
 footer p {
     font-family: 'Quicksand', sans-serif;
     color: #2f4f4f;
-    text-align: right;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    right: 0;
 }
