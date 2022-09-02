@@ -29,8 +29,7 @@ main {
     position: relative;
     margin: 0;
     border: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .message_box { 
@@ -40,9 +39,7 @@ main {
     background: transparent;
     border-radius: 20px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5em;
-    
-    
+    font-size: 1.5em;    
 }
 
  .txt_input {
@@ -109,8 +106,7 @@ main {
     
     background:linear-gradient(#2f4f4f, #72956E);
         box-shadow: 0 2px #666;
-        transform: translateY(1.5%);
-    
+        transform: translateY(1.5%);  
  }
 
  #copy_btn {
@@ -123,13 +119,13 @@ main {
     width: 15%;
     height: 3em;
     margin-left: 36%;
-    }
+}
 
 #copy_btn:active {   
     background:linear-gradient(#612a11, #FFEBCD);
         box-shadow: 0 2px #666;
         transform: translateY(1%);
-    } 
+} 
     
 
 .footer {
