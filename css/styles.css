@@ -128,7 +128,7 @@ main {
 }    
 
 .footer {
-    position: fixed; 
+    position: relative; 
     bottom:0; 
     width: 100%;
     background: linear-gradient(lightgray, white);
@@ -137,6 +137,7 @@ main {
 footer p {
     font-family: 'Quicksand', sans-serif;
     color: #2f4f4f;
+    background: linear-gradient(lightgray, white);
     position: absolute;
     margin-bottom: 0;
     bottom: 0;
