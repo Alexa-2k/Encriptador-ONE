@@ -1,6 +1,6 @@
 
 html{ 
-    width: 100%;
+/*  width: 100%; */
     padding:0px;
     border:0px;
     /* background: linear-gradient(#201311, blanchedalmond); */
@@ -116,7 +116,7 @@ main {
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: antiquewhite;
-    font-size: 1.3em;
+    font-size: 1em;
     width: 15%;
     height: 2.5em;
     margin-left: 6%;
@@ -131,15 +131,16 @@ main {
  }
 
  .copy_btn {
+    width: 15%;
+    height: 2.5em;
+    margin-left: 36%;
     position: relative;
     background:linear-gradient(#FFEBCD,#612a11);
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: antiquewhite;
-    font-size: 1.3em;
-    width: 15%;
-    height: 2.5em;
-    margin-left: 36%;
+    font-size: 1em;
+    
     }
 
 .copy_btn:active {   
