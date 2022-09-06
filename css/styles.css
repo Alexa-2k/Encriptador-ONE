@@ -120,7 +120,7 @@ main {
 
  #copy_btn {
     position: relative;
-    background:linear-gradient(lightgray, black);
+    background:linear-gradient(#D3D3D3, #000000);
    /* background:linear-gradient(#FFEBCD,#612a11);*/ 
      border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -132,7 +132,7 @@ main {
 }
 
 #copy_btn:active {   
-    background:linear-gradient(black, lightgray);
+    background:linear-gradient(#000000, #D3D3D3);
     /*background:linear-gradient(#612a11, #FFEBCD);*/
         box-shadow: 0 2px #666;
         transform: translateY(1%);
@@ -142,7 +142,7 @@ main {
     position: relative; 
     bottom:0; 
     width: 100%;
-    background: linear-gradient(lightgray, white);
+    background: linear-gradient(#D3D3D3, #FFFFFF);
 }
 
 footer p {
