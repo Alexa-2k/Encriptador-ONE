@@ -1,3 +1,8 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;     
+}
 
 header {
     background-color: #000000;
@@ -115,7 +120,8 @@ main {
 
  #copy_btn {
     position: relative;
-    background:linear-gradient(#FFEBCD,#612a11); 
+    background:linear-gradient(lightgray, black);
+   /* background:linear-gradient(#FFEBCD,#612a11);*/ 
      border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: antiquewhite;
@@ -126,7 +132,8 @@ main {
 }
 
 #copy_btn:active {   
-    background:linear-gradient(#612a11, #FFEBCD);
+    background:linear-gradient(black, lightgray);
+    /*background:linear-gradient(#612a11, #FFEBCD);*/
         box-shadow: 0 2px #666;
         transform: translateY(1%);
 }    
@@ -141,8 +148,8 @@ main {
 footer p {
     font-family: 'Quicksand', sans-serif;
     color: #2f4f4f;
-    background: linear-gradient(lightgray, white);
-    position: absolute;
+    /*background: linear-gradient(lightgray, white);*/
+    position: relative;
     margin-bottom: 0;
     bottom: 0;
     right: 0;
