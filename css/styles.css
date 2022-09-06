@@ -81,6 +81,10 @@ main {
     padding-right: 1%;
     padding-bottom: 1%;
     margin: 2% 6% 2% 1%;
+    background-image:url("../Images/lock.png") ;
+    background-size: 60%;
+    background-repeat: no-repeat; 
+    background-position: 50%;
  }
 
 .buttons {
