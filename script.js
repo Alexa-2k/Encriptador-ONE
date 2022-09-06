@@ -22,6 +22,8 @@ document.getElementById('decode_btn').onclick = (e) => {
   const decodedTxt = decrypt(input.value);
   outMessage.value = decodedTxt;
   input.value = "";
+  var imagen = document.getElementById("outMessage");
+  imagen.style.backgroundImage = "none";
   // shows()
 }
 
