@@ -94,7 +94,7 @@ main {
 
 .buttons {
     display: inline-block;
-    margin: 2.5% 0 2.5% 2%;
+    margin: 2.5% 0 2.5% 3%;
     width: 98%;
 }
 
@@ -128,7 +128,7 @@ main {
     font-size: 1.3em;
     width: 15%;
     height: 2.5em;
-    margin-left: 39%;
+    margin-left: 40%;
 }
 
 #copy_btn:active {   
