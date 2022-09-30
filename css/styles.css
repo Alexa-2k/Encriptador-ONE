@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-    color :  #7FB77E;
+    color :  #66bfbf;
     font-family: 'Quicksand', sans-serif;
     font-weight: lighter;
     font-size: 2.5rem;
@@ -101,7 +101,7 @@ main {
 .encode_btn {
     position: relative;
     /* display: inline-block; */
-    background:linear-gradient(#72956E, #2f4f4f );
+    background:linear-gradient(#2BC4AD, #30E3CB);
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: antiquewhite;
@@ -113,7 +113,7 @@ main {
 
 .encode_btn:active {
     
-    background:linear-gradient(#2f4f4f, #72956E);
+    background:linear-gradient(#30E3CB, #2BC4AD);
         box-shadow: 0 2px #666;
         transform: translateY(1.5%);  
  }
