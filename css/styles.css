@@ -101,7 +101,7 @@ main {
 .encode_btn {
     position: relative;
     /* display: inline-block; */
-    background:linear-gradient(#2BC4AD, #30E3CB);
+    background:linear-gradient(#11cdd4, #11999E);
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: antiquewhite;
@@ -113,7 +113,7 @@ main {
 
 .encode_btn:active {
     
-    background:linear-gradient(#30E3CB, #2BC4AD);
+    background:linear-gradient(#11999E, #11cdd4);
         box-shadow: 0 2px #666;
         transform: translateY(1.5%);  
  }
