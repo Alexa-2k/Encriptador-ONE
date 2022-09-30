@@ -104,7 +104,7 @@ main {
     background:linear-gradient(#D0D0D0, black);
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
-    color: antiquewhite;
+    color: white;
     font-size: 1.3em;
     width: 15%;
     height: 2.5em;
@@ -124,7 +124,7 @@ main {
    /* background:linear-gradient(#FFEBCD,#612a11);*/ 
      border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
-    color: antiquewhite;
+    color: white;
     font-size: 1.3em;
     width: 15%;
     height: 2.5em;
