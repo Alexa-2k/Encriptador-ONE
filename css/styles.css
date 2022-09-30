@@ -101,7 +101,7 @@ main {
 .encode_btn {
     position: relative;
     /* display: inline-block; */
-    background:linear-gradient(#d0d0d0, #fff);
+    background:linear-gradient(#D0D0D0, #FFFFFF);
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     color: antiquewhite;
@@ -113,14 +113,14 @@ main {
 
 .encode_btn:active {
     
-    background:linear-gradient(#fff, #d0d0d0);
+    background:linear-gradient(#FFFFFF, #D0D0D0);
         box-shadow: 0 2px #666;
         transform: translateY(1.5%);  
  }
 
  #copy_btn {
     position: relative;
-    background:linear-gradient((#fff, #d0d0d0);
+    background:linear-gradient(#FFFFFF, #D0D0D0);
    /* background:linear-gradient(#FFEBCD,#612a11);*/ 
      border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -132,7 +132,7 @@ main {
 }
 
 #copy_btn:active {   
-    background:linear-gradient(#d0d0d0, #fff);
+    background:linear-gradient(#D0D0D0, #FFFFFF);
     /*background:linear-gradient(#612a11, #FFEBCD);*/
         box-shadow: 0 2px #666;
         transform: translateY(1%);
