@@ -30,7 +30,8 @@ h1 {
 }
 
 main {
-    background: linear-gradient(black, lightgrey);
+    background-color: #000;
+    /*background: linear-gradient(black, lightgrey); */
     position: relative;
     margin: 0;
     border: 0;
