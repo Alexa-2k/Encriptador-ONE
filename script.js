@@ -15,7 +15,6 @@ document.getElementById('encode_btn').onclick = (e) => {
   input.value = "";
   var imagen = document.getElementById("outMessage");
   imagen.style.backgroundImage = "none";
-  // shows()
 }
 
 //captura el id en el momento del click y direcciona el programa para el método que desencripta el texto
@@ -24,18 +23,20 @@ document.getElementById('decode_btn').onclick = (e) => {
   const decodedTxt = decrypt(input.value);
   outMessage.value = decodedTxt;
   input.value = "";
-  // shows()
 }
 
-//captura el id en el momento del click y hace la validación que copia el texto
-document.getElementById('copy_btn').onclick = (e) => {
-  e.preventDefault();
-  const outMessage = document.querySelector(".outMessage");
-  outMessage.select();
-  navigator.clipboard.writeText(outMessage.value)
-  outMessage.value = "";
-  alert("Texto copiado. Por favor péguelo en la ventana izquierda");
-}
+// //captura el id en el momento del click y hace la validación que copia el texto
+ document.getElementById('copy_btn').onclick = (e) => {
+    e.preventDefault();
+    const outMessage = document.querySelector(".outMessage");
+    outMessage.select();
+    console.log(outMessage.value);
+    document.getElementById('txt_input').value = outMessage.value;
+    navigator.clipboard.writeText(outMessage.value);
+    outMessage.value = "";
+    imagenVuelve = document.getElementById("output_box");
+    imagenVuelve.style.backgroundImage = url("../Images/lock.png");
+ }
 
 //encripta el texto
 function encrypt(encodedString) {
@@ -66,22 +67,12 @@ function inputverificar() {
   var inputPalabra = document.querySelector(".txt_input");
   inputPalabra.addEventListener("keydown", function (e) {
     var keyCode = (e.keyCode ? e.keyCode : e.which);
-
     if (keyCode > 47 && keyCode < 65) {
       e.preventDefault();
     }
   });
 }
 
-const target = document.querySelector('div.target');
 
-target.addEventListener('paste', (event) => {
-    event.preventDefault();
-
-    let paste = (event.clipboardData || window.clipboardData).getData('text');
-    paste = paste.toUpperCase();
-    const selection = window.getSelection();
-    if (!selection.rangeCount) return;
-    selection.deleteFromDocument();
-    selection.getRangeAt(0).insertNode(document.createTextNode(paste));
-});
+var imagenVuelve = document.getElementById("outMessage");
+imagen.style.backgroundImage = url("../Images/lock.png");
