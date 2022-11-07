@@ -7,9 +7,9 @@ This text coder/decoder conforms the first challenge in Alura / Oracle Next Educ
 
 To watch it running go to: https://alexa-2k.github.io/Encriptador-ONE/
 Instructions:
-Type some text into the left window.
-Press "Codificar" button
-The codified text appears into the right window. 
-To decode, press "Copiar" in order to copy the coded text to clipboard (an alert is displayed indicating that the copy was successful)
-Paste into the left wwindow and press "Decodificar"
-The decoded text appears in the right window. 
+1. Type some text into the left window.
+2. Press "Codificar" button
+3. The codified text appears into the right window. 
+4. To decode, press "Copiar" in order to copy the coded text to the left wwindow 
+5. Press "Decodificar"
+6. The decoded text appears in the right window. 
