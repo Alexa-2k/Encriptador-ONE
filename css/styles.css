@@ -4,9 +4,13 @@ padding: 0;
 box-sizing: border-box;     
 }
 
+body {
+  height: 100vh;
+  width: 100vw;   
+}
 header {
     background-color: #000000;
-    height: 140px;
+    height: 30%;
 }
 
 .logo {
