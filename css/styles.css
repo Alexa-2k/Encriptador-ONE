@@ -6,10 +6,11 @@ box-sizing: border-box;
 
 html {
   height: 100%;
-  width: 100%;   
+  width: 100%; 
+  background: #000;
 }
 header {
-    background-color: #000;
+/*     background-color: #000; */
     height: 25%;
 }
 
@@ -34,7 +35,7 @@ h1 {
 }
 
 main {
-    background-color: #000;
+/*     background-color: #000; */
     /*background: linear-gradient(black, lightgrey); */
     position: relative;
     margin: 0;
@@ -139,11 +140,9 @@ main {
 
 .footer {
     position:relative;
-    z-index: 1;
-    bottom:0; 
     width: 100vw;
-    max-height:10%;
-    background-color: #000;
+    max-height:15%;
+/*     background-color: #000; */
 }
 
 footer p {
