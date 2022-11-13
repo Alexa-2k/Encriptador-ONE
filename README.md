@@ -10,6 +10,6 @@ Instructions:
 1. Type some text into the left window.
 2. Press "Codificar" button
 3. The codified text appears into the right window. 
-4. To decode, press "Copiar" in order to copy the coded text to the left wwindow 
+4. To decode, press "Copiar" in order to copy the coded text to the left window 
 5. Press "Decodificar"
 6. The decoded text appears in the right window. 
