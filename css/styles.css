@@ -11,6 +11,18 @@
     --input-color: #e4f9f5;
     --outbox-color: whitesmoke;
     --placeholder-color: #1b3f39;
+    --gradient-light:#D0D0D0;
+    --gradient-dark: #000;
+    
+    /*--general-background: #fff;
+    --title-color: #550f02;
+    --title-highlight: #f5270c;
+    --input-color: #464646;
+    --outbox-color: #666;
+    --placeholder-color: #e7890e;
+    --gradient-light:#f79647;
+    --gradient-dark:#550f02;*/
+    
     --font: 'Quicksand', sans-serif;
     --btn_font: 'Montserrat', sans-serif;
 }
@@ -29,21 +41,22 @@ html {
     background-color: var(--general-background);
     display: flex;
     height: 25%;
+    width: 98%;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row-reverse;
+    
 }
 
 .logo {
     width: 55px;
-    float: right;
-    margin-right: 6.1%;
-    margin-top: 3%;
+    margin-right: 4%
 }
 
 .title {
     padding-top: 40px;
     padding-bottom: 30px;
-    margin-left: 5.9%;
+    margin-left: 5%;
     color:var(--title-color);
     font-family: var(--font);
     font-weight: lighter;
@@ -85,7 +98,7 @@ html {
 }
 
 #outMessage {
-    background-color: whitesmoke;
+    background-color: var(--outbox-color) ;  
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +112,7 @@ html {
 ::placeholder {
     color: var(--placeholder-color);
     font-family: var(--font);
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.5rem;
 }
 
@@ -111,7 +124,7 @@ html {
 }
 
 .button {
-    background: linear-gradient(#D0D0D0, black);
+    background: linear-gradient(var(--gradient-light), var(--gradient-dark));
     border-radius: 15px;
     font-family: var(--btn_font);
     color: white;
@@ -127,7 +140,7 @@ html {
 
 #copy_btn {
     position: relative;
-    background: linear-gradient(black, #D0D0D0);
+    background: linear-gradient(var(--gradient-dark), var(--gradient-light));
     border-radius: 15px;
     font-family: var(--btn_font);
     color: white;
@@ -138,14 +151,13 @@ html {
 
 .button:active, #copy_btn:active {
     transform: scale(1.05);
-     background: linear-gradient(black, #D0D0D0);
+     background: linear-gradient(var(--gradient-dark), var(--gradient-light));
 }
 
 #copy_btn:active {
     transform: scale(1.05);
-    background: linear-gradient(#D0D0D0, black);
+    background: linear-gradient(var(--gradient-light), var(--gradient-dark));
 }
-
 .footer {
     padding: 2%;
     max-height: 5%;
@@ -157,3 +169,4 @@ footer p {
     color: #FFF;
     text-align: right;
 }
+
