@@ -5,9 +5,13 @@ const btnDecrypt = document.querySelector("#decode_btn");
 const outMessage = document.querySelector("#outMessage");
 const btnCopy = document.querySelector("#copy_btn");
 
+
+// Configuración inicial de la imagen de fondo en outMessage
+outMessage.style.backgroundImage = "url('../Images/lock.png')";
+
 inputVerificar();
 
-// Captura el id en el momento del click y direcciona el programa para el método que encripta el texto
+// Captura la id en el momento del click y direcciona el programa para el método que ENCRIPTA el texto
 btnEncrypt.onclick = (e) => {
     e.preventDefault();
     const encodedTxt = encrypt(input.value);
@@ -16,16 +20,16 @@ btnEncrypt.onclick = (e) => {
     outMessage.style.backgroundImage = "none"; // Quitar la imagen de fondo al codificar
 }
 
-// Captura el id en el momento del click y direcciona el programa para el método que desencripta el texto
+// Captura la id en el momento del click y direcciona el programa para el método que DESENCRIPTA el texto
 btnDecrypt.onclick = (e) => {
     e.preventDefault();
     const decodedTxt = decrypt(input.value);
     outMessage.value = decodedTxt;
     input.value = "";
-    outMessage.style.backgroundImage = "none"; // Quitar la imagen de fondo al decodificar
+    outMessage.style.backgroundImage = "none"; // QuitaR la imagen de fondo al decodificar
 }
 
-// Captura el id en el momento del click y hace la validación que copia el texto
+// Captura la id en el momento del click y hace la validación que copia el texto
 btnCopy.onclick = (e) => {
     e.preventDefault();
     // Selecciona y copia el texto de outMessage
@@ -45,6 +49,7 @@ function encrypt(encodedString) {
     const keyArray = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     for (let j = 0; j < keyArray.length; j++) {
         encodedString = encodedString.replaceAll(keyArray[j][0], keyArray[j][1]);
+
     }
     return encodedString;
 }
@@ -68,5 +73,4 @@ function inputVerificar() {
     });
 }
 
-// Configuración inicial de la imagen de fondo en outMessage
-outMessage.style.backgroundImage = "url('../Images/lock.png')";
+
