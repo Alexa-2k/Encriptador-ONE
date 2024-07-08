@@ -7,7 +7,7 @@ const btnCopy = document.querySelector("#copy_btn");
 
 
 // Configuración inicial de la imagen de fondo en outMessage
-outMessage.style.backgroundImage = "url('./Images/lock.png')";
+outMessage.style.backgroundImage = "url('Images/lock.png')";
 
 inputVerificar();
 
@@ -38,7 +38,7 @@ btnCopy.onclick = (e) => {
         // Una vez copiado, mueve el texto a txt_input
         input.value = outMessage.value;
         outMessage.value = "";
-        outMessage.style.backgroundImage = "url('./Images/lock.png')"; // Restablecer la imagen de fondo
+        outMessage.style.backgroundImage = "url('Images/lock.png')"; // Restablecer la imagen de fondo
     }).catch(err => {
         console.error('Error al copiar el texto: ', err);
     });
