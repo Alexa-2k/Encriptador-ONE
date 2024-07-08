@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-root {
+:root {
     --general-background: #000;
     --title-color: #6fce91;
     --title-highlight: #b4ffce;
@@ -53,14 +53,6 @@ html {
 .title:hover {
     font-weight: 500;
     color: var(--title-highlight);   
-}
-
-
-h1 {
-    color:var(--title-color);
-    font-family: var(--font);
-    font-weight: lighter;
-    font-size: 2.5rem;
 }
 
 #message_box {
@@ -113,7 +105,7 @@ h1 {
 
 .buttons {
     display: flex;
-    width: 98%;
+    margin-left: 1%;
     justify-content: space-around;
     padding-top: 2%;
 }
