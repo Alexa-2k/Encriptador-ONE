@@ -14,14 +14,14 @@
     --gradient-light:#D0D0D0;
     --gradient-dark: #000;
     
-    /*--general-background: #fff;
-    --title-color: #550f02;
-    --title-highlight: #f5270c;
-    --input-color: #464646;
-    --outbox-color: #666;
-    --placeholder-color: #e7890e;
-    --gradient-light:#f79647;
-    --gradient-dark:#550f02;*/
+    /*--general2-background: #fff;
+    --title2-color: #550f02;
+    --title2-highlight: #f5270c;
+    --input2-color: #464646;
+    --outbox2-color: #666;
+    --placeholder2-color: #e7890e;
+    --gradient2-light:#f79647;
+    --gradient2-dark:#550f02;*/
     
     --font: 'Quicksand', sans-serif;
     --btn_font: 'Montserrat', sans-serif;
@@ -64,26 +64,23 @@ html {
 }
 
 .title:hover {
-    font-weight: 500;
-    color: var(--title-highlight);   
+    font-weight: 600;
+    color: var(--title-highlight);
 }
 
 #message_box {
     height: 60vh;
     display: flex;
+    align-items: center;
     flex-direction: row;
     background: transparent;
-    justify-items: space-evenly;
+    justify-items: space-between;
     padding-left: 10%;
 }
 
-.text_box {
-    border-radius: 20px;
-    width: 100%;
-}
 
 #txt_input, #outMessage {
-    width: 80%;
+    width: 40%;
     border-radius: 20px;
     height: 100%;
     padding: 2%;
@@ -94,7 +91,7 @@ html {
 
 #txt_input {
     background-color: var(--input-color);
-    
+    margin-right: 10%;
 }
 
 #outMessage {
@@ -104,9 +101,8 @@ html {
     background-repeat: no-repeat;
 }
 
-#txt_input:focus, #outMessage:focus {
-    border: none;
-    outline: none;
+#outMessage.focused {
+  box-shadow: 0 10px 10px 0 var(--title-color);
 }
 
 ::placeholder {
@@ -133,7 +129,7 @@ html {
     height: 3.5rem;
 }
 
-.button:hover, #copy_btn:hover {
+.button:hover {
     box-shadow: 10px 10px 10px var(--title-color);
     color: var(--title-color);
 }
@@ -142,20 +138,14 @@ html {
     position: relative;
     background: linear-gradient(var(--gradient-dark), var(--gradient-light));
     border-radius: 15px;
-    font-family: var(--btn_font);
-    color: white;
-    font-size: 1.3rem;
-    width: 15%;
-    height: 3.5rem;
+    
 }
-
-.button:active, #copy_btn:active {
+.button:active{
     transform: scale(1.05);
-     background: linear-gradient(var(--gradient-dark), var(--gradient-light));
+    background: linear-gradient(var(--gradient-dark), var(--gradient-light));
 }
 
 #copy_btn:active {
-    transform: scale(1.05);
     background: linear-gradient(var(--gradient-light), var(--gradient-dark));
 }
 .footer {
