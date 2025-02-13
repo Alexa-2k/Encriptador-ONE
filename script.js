@@ -7,7 +7,7 @@ const btnCopy = document.querySelector("#copy_btn");
 
 
 // Configuración inicial de la imagen de fondo en outMessage
-outMessage.style.backgroundImage = "url('../Images/lock.png')";
+outMessage.style.backgroundImage = "url('./Images/lock.png')";
 
 inputVerificar();
 
